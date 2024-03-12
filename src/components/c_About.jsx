@@ -1,12 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const c_About = () => {
+function c_About() {
     return (
         <>
             <section className="bg-gray-300 mt-12 py-16">
                 <div className="container mx-auto text-center bg-white bg-opacity-50 rounded p-8">
-                    <h2 className="text-3xl font-bold mb-8">Interiorismo Society: Transformando Espacios en Hogares con Identidad Propia</h2>
+                    <img
+                        src="/people.jpg" 
+                        alt="Descripción de la imagen"
+                        className="mx-auto mb-8 rounded"  // mx-auto centra horizontalmente la imagen, mb-4 agrega margen en la parte inferior
+                    />
+                    <h2 className="text-3xl text-center font-bold underline hover:text-amber-800">Interiorismo Society</h2>
+                    <h2 className="text-3xl text-center font-bold mb-8">Transformando Espacios en Hogares con Identidad Propia</h2>
                     <p className="text-lg mb-20 max-w-3xl mx-auto">
                         Bienvenido a <span className="text-amber-600 font-semibold">Interiorismo Society</span>, donde nos dedicamos apasionadamente
                         a la creación de hogares que reflejan la autenticidad y el estilo de vida único de cada individuo. Nuestra especialización se
@@ -48,7 +54,7 @@ const c_About = () => {
                         <Link
                             to={"/"}
                             className="rounded-md bg-amber-200 px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-amber-800 hover:text-white focus-visible:outline 
-                    focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                            focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                             Inicio
                         </Link>
                     </div>
