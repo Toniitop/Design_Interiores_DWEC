@@ -9,7 +9,7 @@ function c_Disenos() {
                     <h2 className="text-3xl text-gray-800 font-extrabold mb-12 mt-12 hover:text-amber-800 underline">Nuestros Departamentos</h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-4 hover:border-amber-500">
+                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-amber-500">
                             <img className="rounded-t-lg" src="/tarjeta6.jpg" alt="" />
                             <div className="p-5">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Habitaciones</h5>
@@ -23,7 +23,7 @@ function c_Disenos() {
                             </div>
                         </div>
 
-                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-4 hover:border-amber-500">
+                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-amber-500">
 
                             <img className="rounded-t-lg" src="/tarjeta4.jpg" alt="" />
 
@@ -39,7 +39,7 @@ function c_Disenos() {
                             </div>
                         </div>
 
-                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-4 hover:border-amber-500">
+                        <div className="max-w-sm bg-white border border-gray-100 rounded-lg shadow dark:bg-gray-900 dark:border-gray-300 transform transition-transform hover:scale-105 hover:border-amber-500">
                             <img className="rounded-t-lg" src="/tarjeta5.jpg" alt="" />
                             <div className="p-5">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cocinas</h5>
